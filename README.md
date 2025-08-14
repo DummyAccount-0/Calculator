@@ -1,71 +1,81 @@
-Scientific Calculator App
-A modern React web calculator suite featuring:
+# 🧮 Scientific Calculator App
 
-Advanced Calculator: Standard and advanced mathematical operations with expression history.
+A modern **React**-based all-in-one calculator suite that combines advanced calculations, matrix operations, interactive graphing, a rich formula library, and a built-in unit converter — all in a clean, responsive interface.
 
-Matrix Calculator: Visual editing and calculation with dynamic matrices, including row/column add/remove, matrix operations, and "Store Result as Matrix".
+---
 
-Graphing Panel: Interactive graph plotter for single and dual functions, supporting 2D and 3D plots.
+## ✨ Features
 
-Formula Library: Searchable, filterable database of math, physics, engineering, and computer science formulas, including variable explanations, tags, and favorites.
+### **General**
+- 🌗 **Light & Dark Theme** — Easily toggle themes across all panels.
+- 💻 **Responsive Layout** — Works seamlessly on desktop and tablet.
+- 📜 **History System** — Access all previous results and click to restore them.
+- ⌨️ **Keyboard Shortcuts** — Many actions are mapped for quick keyboard usage.
 
-Unit Conversion Sidebar: Built-in sidebar for conversions (see ConversionSidebar).
+---
 
-Features
-General
-Light and Dark Theme: User-selectable themes across all panels.
+### **Advanced Calculator**
+- Standard and scientific mathematical operations.
+- Expression-based calculations.
+- Keeps a **clickable history** of calculations for reuse.
 
-Responsive Layout: Works on desktop and tablet screens.
+---
 
-History System: All history is accessible and clickable to restore old results.
+### **Matrix Calculator**
+- Edit **multiple matrices** (A, B, C, …) with dynamic creation/removal.
+- Add/remove rows and columns **per matrix**.
+- Supported operations:
+  - ➕ Addition
+  - ➖ Subtraction
+  - ✖️ Multiplication (A × B)
+  - 🔄 Transpose
+  - 🔄 Inverse
+  - 📐 Determinant
+- **Store Result as Matrix** — Instantly reuse output as a new matrix.
+- Numpad and direct input supported in grid cells.
 
-Keyboard Shortcuts: Many calculator actions are mapped for convenient keyboard use.
+---
 
-Matrix Calculator
-Edit multiple matrices labeled A, B, C, … (dynamic creation/removal).
+### **Formula Library**
+- Organized **database of formulas** for Math, Physics, Engineering, and Computer Science.
+- 🔍 **Search** by name, description, or tags.
+- 📂 **Filter** by category and subcategory.
+- ⭐ **Favorite formulas** (persisted for the session).
+- Mobile-friendly card view with:
+  - Formula text
+  - Variable explanations
+  - Color-coded tags
 
-Add/remove rows and columns individually per matrix.
+---
 
-Perform operations:
+### **Graphing Panel**
+- Plot **functions, parametric equations, and 3D surfaces**.
+- Toggle between **2D** and **3D** plot modes.
+- Dual function support — plot two functions together.
+- Auto-adjusts colors to match theme.
 
-Addition, subtraction, multiplication (A × B)
+---
 
-Transpose, inverse, determinant
+### **Unit Conversion Sidebar**
+- Built-in **conversion panel** (length, weight, time, energy, etc.).
+- Quick-access sidebar for fast unit changes.
 
-Store Result as Matrix: Instantly add the output matrix as a new item for further calculations.
+---
 
-Numpad and direct input fully supported in grid cells.
+## 🛠 Installation & Setup
 
-Formula Library
-Database of formulas organized by category and subcategory.
-
-Powerful search over formula names, descriptions, and tags.
-
-Filter by category, subcategory.
-
-Quickly copy formula text.
-
-Star/favorite formulas (persists session).
-
-Mobile-friendly cards, variable explanations, color badges.
-
-Graphing Panel
-Plot mathematical functions, parametric equations, and surfaces.
-
-Toggle between 2D/3D plot modes.
-
-Dual function support (plot two functions together).
-
-Change color scheme based on app theme.
-
-Usage
-Install dependencies
-(Assuming a standard Create React App / Vite setup):
-
-bash
+### **1. Install Dependencies**
+```bash
 npm install
-Start the app
-
-bash
+### **2. Start the APP**
 npm start
-Visit http://localhost:3000 (or your configured port).
+### **3. Open in Browser**
+http://localhost:3000
+
+📂 Project Structure
+src/
+  ├── components/         # Reusable UI components
+  ├── pages/              # Calculator, Matrix, Graphing, Formula Library
+  ├── contexts/           # Theme and state management
+  ├── styles/             # SCSS styles
+  ├── images/             # Icons and assets
