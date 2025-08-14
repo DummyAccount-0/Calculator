@@ -67,15 +67,27 @@ A modern **React**-based all-in-one calculator suite that combines advanced calc
 ### **1. Install Dependencies**
 ```bash
 npm install
-### **2. Start the APP**
-npm start
-### **3. Open in Browser**
-http://localhost:3000
+```
 
-📂 Project Structure
+### **2. Start the App**
+```bash
+npm start
+```
+
+### **3. Open in Browser**
+Visit:
+```
+http://localhost:3000
+```
+
+---
+
+## 📂 Project Structure
+```
 src/
   ├── components/         # Reusable UI components
   ├── pages/              # Calculator, Matrix, Graphing, Formula Library
   ├── contexts/           # Theme and state management
   ├── styles/             # SCSS styles
   ├── images/             # Icons and assets
+```
